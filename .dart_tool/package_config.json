@@ -45,7 +45,7 @@
     },
     {
       "name": "flutter",
-      "rootUri": "file:///Users/user/development/flutter/packages/flutter",
+      "rootUri": "file:///Users/user/Documents/development/bpmg/deep_links/flutter/packages/flutter",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
@@ -57,9 +57,15 @@
     },
     {
       "name": "flutter_test",
-      "rootUri": "file:///Users/user/development/flutter/packages/flutter_test",
+      "rootUri": "file:///Users/user/Documents/development/bpmg/deep_links/flutter/packages/flutter_test",
       "packageUri": "lib/",
       "languageVersion": "3.0"
+    },
+    {
+      "name": "get",
+      "rootUri": "file:///Users/user/.pub-cache/hosted/pub.dev/get-4.6.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.15"
     },
     {
       "name": "js",
@@ -99,7 +105,7 @@
     },
     {
       "name": "sky_engine",
-      "rootUri": "file:///Users/user/development/flutter/bin/cache/pkg/sky_engine",
+      "rootUri": "file:///Users/user/Documents/development/bpmg/deep_links/flutter/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
@@ -152,7 +158,7 @@
       "languageVersion": "3.0"
     }
   ],
-  "generated": "2023-08-12T13:04:37.543573Z",
+  "generated": "2023-08-13T12:28:01.132838Z",
   "generator": "pub",
   "generatorVersion": "3.0.6"
 }
