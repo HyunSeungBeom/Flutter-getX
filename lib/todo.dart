@@ -6,8 +6,8 @@ void main() {
 }
 
 class Task {
-  final String title;
-  late final bool isDone;
+  String title;
+  bool isDone;
 
   Task(this.title, this.isDone);
 }
