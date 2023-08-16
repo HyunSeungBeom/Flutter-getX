@@ -3,7 +3,7 @@
 export "FLUTTER_ROOT=/Users/user/Documents/development/bpmg/deep_links/flutter"
 export "FLUTTER_APPLICATION_PATH=/Users/user/Documents/development/seung/Flutter-getX"
 export "COCOAPODS_PARALLEL_CODE_SIGN=true"
-export "FLUTTER_TARGET=/Users/user/Documents/development/seung/Flutter-getX/lib/translation.dart"
+export "FLUTTER_TARGET=/Users/user/Documents/development/seung/Flutter-getX/lib/todo.dart"
 export "FLUTTER_BUILD_DIR=build"
 export "FLUTTER_BUILD_NAME=1.0.0"
 export "FLUTTER_BUILD_NUMBER=1"

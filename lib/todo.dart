@@ -25,7 +25,7 @@ class TaskController extends GetxController {
 }
 
 class MyApp extends StatelessWidget {
-  final taskController = Get.put(TaskController());
+  final TaskController taskController = TaskController();
 
   MyApp({super.key});
 
@@ -38,8 +38,8 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(title: const Text('Todo App')),
         body: Column(
           children: [
-            Expanded(child: TaskList()),
-            TaskInput(),
+            Expanded(child: TaskList(taskController: taskController)),
+            TaskInput(taskController: taskController),
           ],
         ),
       ),
@@ -48,9 +48,9 @@ class MyApp extends StatelessWidget {
 }
 
 class TaskList extends StatelessWidget {
-  final taskController = Get.find<TaskController>();
+  final TaskController taskController;
 
-  TaskList({super.key});
+  TaskList({super.key, required this.taskController});
 
   @override
   Widget build(BuildContext context) {
@@ -71,10 +71,10 @@ class TaskList extends StatelessWidget {
 }
 
 class TaskInput extends StatelessWidget {
-  final taskController = Get.find<TaskController>();
+  final TaskController taskController;
   final TextEditingController textEditingController = TextEditingController();
 
-  TaskInput({super.key});
+  TaskInput({super.key, required this.taskController});
 
   void addTask() {
     final title = textEditingController.text;

@@ -32,6 +32,8 @@ class TranslationController extends GetxController {
 class MyApp extends StatelessWidget {
   final translationController = Get.put(TranslationController());
 
+  MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
