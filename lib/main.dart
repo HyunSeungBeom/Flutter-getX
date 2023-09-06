@@ -48,3 +48,4 @@ class CountController extends GetxController {
     count.value++;
   }
 }
+
