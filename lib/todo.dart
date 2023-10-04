@@ -19,7 +19,7 @@ class TaskController extends GetxController {
     tasks.add(Task(title, false)); 
   }
 
-  void toggleTask(int index) {
+  void toggleTask(int index) { 
     tasks[index].isDone = !tasks[index].isDone;
   }
 }
