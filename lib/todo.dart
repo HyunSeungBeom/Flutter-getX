@@ -13,7 +13,7 @@ class Task {
 }
 
 class TaskController extends GetxController {
-  var tasks = <Task>[].obs;
+  var tasks = <Task>[].obs; 
 
   void addTask(String title) {
     tasks.add(Task(title, false)); 
